@@ -1,0 +1,103 @@
+.store-pic {
+    width: 100%;
+    /*background: #f5f5f5;*/
+}
+
+.store-img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    margin: 0.64rem auto 0.74rem;
+}
+
+.store-img img {
+    width: 100%;
+}
+
+.nickname {
+    color: #333;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-bottom: 0.74rem;
+}
+
+.space {
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.mystore-undone {
+    padding: 0.46rem 0;
+}
+
+.mystore-undone a .undone-img {
+    width: 1.0rem;
+    margin: 0 auto;
+    margin-bottom: 0.4rem;
+}
+
+.mystore-undone a .undone-img img {
+    width: 100%;
+}
+
+.mystore-undone a {
+    color: #777;
+    font-size: 0.48rem;
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.all-order {
+    font-size: 0.56rem;
+    color: #333;
+    padding: 0.66rem 0 0.66rem 0.6rem;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.mystore-list {
+    margin-bottom: 100px;
+}
+
+.mystore-list li {
+    font-size: 0.16rem;
+    color: #333;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0.72rem  0.6rem 0.58rem 0.6rem;
+}
+
+.all-order-btn {
+    width: 0.6rem;
+    position: absolute;
+    right: 0.3rem;
+    text-align: center;
+}
+
+.all-order-btn img {
+    width:0.32rem;
+}
+
+.mystore-list li a {
+    color: #333;
+    display: block;
+    position: relative;
+    font-size: 0.56rem;
+}
+
+.mystore-list li a img {
+    width: 0.32rem;
+    position: absolute;
+    right: 0;
+    top:2px;
+}
+
+.mystore-list li a span {
+    float: right;
+    margin-right:0.6rem;
+}
+.tab-list a i{ font-size: 0.84rem;}
+.tab-list a{ padding: 0; font-size: 0.48rem; }

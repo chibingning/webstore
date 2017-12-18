@@ -1,0 +1,196 @@
+::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search-back {
+
+    float: left;
+    padding-top: 0.7rem;
+}
+
+.search-back a {
+    width: 0.68rem;
+    display: inline-block;
+    margin-left: 0.6rem;
+}
+
+.search-back a img {
+    width: 100%;
+}
+
+.search-box {
+    width: 89%;
+    float: left;
+    padding: 0.4rem 0.22rem;
+}
+
+.search-select {
+
+    height: auto;
+    font-size: 0.15rem;
+    padding: 0.07rem 0.12rem;
+    border-radius: 3px;
+}
+
+.search-input01 {
+    width: 100%;
+    height: auto;
+    font-size: 0.15rem;
+    border-radius: 6px;
+    border: none;
+    background: #f5f5f5;
+    background-size: 0.25rem;
+    padding: 0.10rem 0;
+    padding-left: 0.15rem;
+}
+
+.tips h4 {
+    color: #b9b9b9;
+    font-size: 0.52rem;
+    font-weight: normal;
+    margin-left: 0.6rem;
+    margin-top: 0.68rem;
+}
+
+.Keyword {
+    margin-left: 0.6rem;
+    margin-top: 0.7rem;
+}
+
+.Keyword a {
+    font-size: 0.48rem;
+    color: #b9b9b9;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #b9b9b9;
+    padding: 0.32rem 0.44rem;
+    margin-right: 0.4rem;
+}
+
+
+.hot-goods {
+    padding: 0 8px;
+    margin-top: 35px;
+}
+
+.goods-list {
+    padding: 0 0.3rem;
+}
+
+.goods-list li {
+    width: 49.9%;
+    float: left;
+    padding: 0 0.3rem;
+    padding-bottom: 0.11rem;
+}
+
+.goods-list li a {
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.goods-list li a img {
+    width: 100%;
+}
+
+.search-selec {
+    padding: 0.1rem;
+}
+
+.search-selec option {
+    padding: 0.1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.dsj {
+    position: absolute;
+    top: 3px;
+    right: -4px;
+    z-index: 100;
+}
+
+.search-btn {
+    width: 100%;
+    color: #888;
+    font-size: 0.48rem;
+    padding:0.32rem 0.68rem ;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    background: #ddd;
+    position: relative;
+    top:2px;
+}
+
+@media screen and (min-width:320px) {}
+
+@media screen and (min-width:360px) {}
+
+@media screen and (min-width:375px) {
+    .dsj {
+        position: absolute;
+        top: 5px;
+        right: -4px;
+        z-index: 100;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .dsj {
+        position: absolute;
+        top: 8px;
+        right: -4px;
+        z-index: 100;
+    }
+}
+
+.list-box-img {
+    width: 100%;
+    height: 8.3rem;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.brand-name {
+    color: #777;
+    font-size: 0.48rem;
+    margin: 0.26rem 0 0.32rem 0;
+}
+
+.brand-title {
+    font-size: 0.48rem;
+    color: #515151;
+    margin-bottom: 0.1rem;
+}
+
+.brand-price {
+    font-size: 0.52rem;
+    color: #ff4c4c;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.befor-price {
+    margin-left: 5px;
+    color: #333;
+    font-size: 0.52rem;
+}
+
+.search-input {
+
+    width: 100%;
+    height: auto;
+    font-size: 0.48rem;
+    border-radius: 3px;
+    border: none;
+    background: #f5f5f5;
+    background-size: 0.25rem;
+    padding: 0.38rem 0 0.42rem 0;
+    padding-left: 0.68rem;
+
+}
+

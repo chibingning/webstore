@@ -1,0 +1,131 @@
+header {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background: #333;
+    position: relative;
+}
+
+header a {
+    width: 2.0rem;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.8rem;
+    padding-left: 0.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header a i.iconfont {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+header .title {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.72rem;
+    background: #333;
+}
+
+
+
+.index-box {
+    margin-bottom: 0.9rem;
+}
+
+.index-box-title {
+    position: relative;
+}
+.index-box-title:after {
+    height: 0;
+}
+
+
+.index-title {
+    font-size: 0.22rem;
+    height: auto;
+    padding: 0.13rem 0;
+    font-weight: normal;
+
+    text-align: center;
+    position: relative;
+}
+
+.index-title a {
+    width: 0.15rem;
+    display: inline-block;
+    position: absolute;
+    left: 0.22rem;
+}
+
+.index-title a img {
+    width: 100%;
+}
+
+::-webkit-search-cancel-button {
+    display: none;
+}
+
+.sort-grounp{ width: 100%; padding:0.3rem 0;}
+.sort-grounp a{ width: 25%; color: #333; font-size:0.56rem; float: left; text-align: center;
+    background-size:contain; position: relative;
+}
+.sort-grounp a img{ width: 0.3rem; margin-left:6px; vertical-align: middle; position: relative; top:-1px; }
+.dit5{ margin-top: 0.14rem;  }
+.brand-price span{ font-size:0.48rem; color: #ccc;  font-weight: normal;  }
+.brand-price del{ color: #a3a3a3; font-weight: normal;}
+.goods-list{ padding:0 0.3rem; }
+.goods-list li {
+    width: 49.9%;
+    float: left;
+    padding: 0 0.3rem;
+    padding-bottom: 0.11rem;
+}
+.goods-list li a {
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+.goods-list li a img{ width: 100%;}
+.goods-list1{ padding:0 0.1rem; }
+.goods-list1 li{  padding:0 0.1rem; margin-top: 0.6rem;}
+.goods-list1 li a{ display: inline-grid; overflow: hidden;}
+.brand-name{ font-size: 0.48rem; padding-top: 5px; color: #515151;}
+
+.list-box-img {
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+}
+.button {
+    width: 100%;
+    background:none;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+    cursor: pointer;
+    color: #888;
+    font-size:0.48rem;
+}
+.search-box{ margin-bottom: 10px;}
+.show-all{ color:#888; font-size: 0.12rem;}
+
+.list-box-img {
+    width: 100%;
+    height: 8.3rem;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.brand-title{ color: #444;}
+.brand-price{ color: #ff4c4c;}

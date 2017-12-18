@@ -1,0 +1,181 @@
+
+header {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background: #333;
+    position: relative;
+}
+
+header a {
+    width: 2.0rem;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.8rem;
+    padding-left: 0.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header a i.iconfont {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+header .title {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.72rem;
+    background: #333;
+}
+
+
+.yhq-wrapper {
+    width: 100%;
+    color: #fff;
+}
+
+.yhq-box {
+    width: 92%;
+    margin: 0.6rem auto;
+    height: 4.42rem;
+    background: url(../images/yhq/yhq_bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 0.6rem;
+    position: relative;
+}
+
+.yhq-left,
+.yhq-right {
+    float: left;
+    color: #fff;
+}
+
+.yhq-right {
+    position: absolute;
+    right: 0.6rem;
+    top: 5px;
+}
+
+.yhq-left h2 {
+    font-size: 0.6rem;
+    font-weight: normal;
+    margin-bottom: 0.44rem;
+}
+
+.yhq-left h3 {
+    font-size: 0.48rem;
+    font-weight: normal;
+    margin-bottom: 0.6rem;
+}
+
+.yhq-left p {
+    font-size: 0.4rem;
+}
+
+.yhq-price {
+    font-size: 1.44rem;
+}
+
+.yhq-price i {
+    font-size: 0.96rem;
+}
+
+.yhq-u-user {
+    width: 2.52rem;
+    height: 0.96rem;
+    position: relative;
+    right: -9px;
+    font-size: 0.56rem;
+    color: #ff706b;
+    line-height: 0.96rem;
+    text-align: center;
+    display: block;
+    background: #fff;
+    border-radius: 0.44rem;
+}
+
+.yhq-sx-check {
+    font-size: 0.56rem;
+    color: #888;
+    text-align: center;
+    display: block;
+    margin-top:10px;
+}
+
+.yhq-box1 {
+    border-radius: 3px;
+    width: 92%;
+    margin: 0.6rem auto;
+    display: none;
+    height: 4.42rem;
+    background: #b4b4b4;
+    background-size: 100% 100%;
+    padding: 0.6rem;
+    position: relative;
+}
+
+.yhq-box1 .gq {
+    text-align: center;
+    font-size: 0.56rem;
+}
+
+.yhq-left-price { font-size: 1.44rem; margin-top: 0.56rem; margin-right: 1.2rem;}
+.yhq-left-price span{ font-size: 0.96rem;}
+.yhq-left-price h2{ font-size: 0.56rem;}
+.yhq-left-price h3{ font-size: 0.56rem;}
+.yhq-right-btn{ top:32px; text-align: center;}
+.yhq-right-btn span{ font-size: 0.48rem; margin-top:0.28rem; padding-left: 0.5rem;}
+.yhq-right-btn span i{ font-size: 0.48rem;}
+.yhq-right-btn a.yhq-u-user{width: auto; height: auto; padding-top: 2px; margin-bottom: 0.28rem; padding:0.2rem 0.6rem; border-radius: 0.44rem;}
+.yhq-right-btn span.yhq-ylq{ font-size: 0.6rem; position: relative; top: 10px;}
+
+
+
+
+
+
+
+
+
+
+.shdz-list { padding:0 0.6rem;  overflow-y: hidden; margin-bottom: 1.9rem;}
+
+.shdz-list li { font-size: 0.52rem; color: #333;  border-bottom: 1px solid #f5f5f5;}
+
+.shdz-list-redio em {
+   
+    width: 20px;
+    height: 20px;
+    border: solid 1px #e6e6e6;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.shdz-list-box{ width: auto; float: left; padding:0.52rem 0 0; padding-left: 25px; }
+.shdz-list-box h2{ font-weight: normal; margin-bottom: 0.2rem;}
+.shdz-list-box p{ margin-bottom: 0.3rem;}
+.shdz-list-box h2 .name{ margin-right: 0.92rem;}
+.shdz-list li{ position: relative}
+.shdz-list-redio{ width: 20px; height: auto;  margin-top: 1.16rem; position: absolute;}
+.shdz-list-bj{ margin-right: 1.1rem; }
+.shdz-list-bj i{ margin-right: 5px; font-size: 0.48rem;}
+.shdz-list-del i{ margin-right: 5px; font-size: 0.48rem;}
+.shdz-cz{ display: inline-block; float: right; color: #888; font-size: 0.48rem;}
+.shdz-cz a{ color: #888;}
+
+.s-select{ background:url(../images/shdz/on.png) no-repeat #333333; background-size: cover;}
+.xzshdz-btn{ padding: 0 0.6rem; position: fixed; bottom:0.6rem; width: 100%; }
+.xzshdz-btn a{ width: 100%; height: 1.8rem; font-size: 0.6rem; line-height: 1.8rem; display: block; background: #333;  border-radius: 3px; color: #fff; text-align: center;}
+.xzshdz-btn a:hover{ color: #fff;}
+
+header a.shdz-btn-have{left:auto; right:0; font-size: 0.48rem;}
+header a.shdz-btn-have:hover{ color: #fff;}
+.s-form-group{ padding:0.6rem; border-bottom: 1px solid #f5f5f5; color: #333;}
+.s-form-group label{ width: 2.8rem; display: inline-block; color: #333; font-size: 0.6rem;}
+.form-control{ font-size: 0.6rem; border:none;}
+.s-form-group .ssq{ color: #c2c2c2;}

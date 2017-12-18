@@ -1,0 +1,38 @@
+.index-box {
+    margin-bottom: 0.9rem;
+}
+
+.index-box-title {
+    position: relative;
+}
+
+
+
+.index-title {
+    font-size: 0.22rem;
+    height: auto;
+    padding: 0.13rem 0;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+.index-title a {
+    width: 0.15rem;
+    display: inline-block;
+    position: absolute;
+    left: 0.22rem;
+}
+
+.index-title a img {
+    width: 100%;
+}
+
+::-webkit-search-cancel-button {
+    display: none;
+}
+
+.cart-void{  width: 100%;   color: #dbdbdb; text-align: center; margin-top: 2rem;}
+.cart-void .iconfont{ font-size: 1rem; display: inline-block; } 
+.cart-void p{ font-size: 0.18rem; display: inline-block;}
