@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>登录</title>
+    <link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <script>
+        (function () {
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth / 15 + "px";
+        })()
+    </script>
+</head>
+<body class="login-bg">
+    <h2>雪托帮商城</h2>
+    <ul class="login-list" id="app">
+        <li class="clearfix">
+            <label>手机号</label>
+            <input type="text" name="phone" value="" id="phoneId">
+        </li>
+        <li class="clearfix">
+            <label>验证码</label>
+            <input type="text" name="identifyingCode" id="identifyingCodeId">
+            <mt-button type="primary" :class="btnSmall" @click="getCode">获取验证码</mt-button>
+            <!-- <a href="javascript:void(0);" class="login-hqword" onclick="getIdentifyingCode();getCode(this);" id="J_getCode">获取验证码</a>
+            <a class="login-hqword1" id="J_resetCode" style="display:none;">
+                <span id="J_second">10</span>秒后重发
+            </a> -->
+        </li>
+        <li class="clearfix">
+            <mt-button type="primary" v-bind:class="wStyle" @click.native="wxLogin()">登录</mt-button>
+        </li>
+    </ul>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/mint-ui/lib/index.js"></script>
+    <script>
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                wStyle: 'login-btn',
+                btnSmall:'login-code',
+
+            },
+            methods: {
+                wxLogin: function () {
+                    this.$toast('登录成功');
+                },
+                getCode:function(){
+                    //获取验证码
+                }
+            },
+            computed:{
+                
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!-- <script> 
+        function getIdentifyingCode() {
+            $("#J_getCode").attr("onclick","getCode(this);");
+            var data = {};
+            data["phone"] = $("#phoneId").val();
+            $.ajax({
+                url: "${path}/mall/payUser/getIdentifyingCode.do",
+                async: false,
+                data: data,
+                dataType: "json",
+                success: function (ret) {
+                    if (ret.retcode == 0) {
+                        alert(ret.msg);
+                    }
+                }
+            });
+        }
+    
+        function wxLogin() {
+            var data = {};
+            data["phone"] = $("#phoneId").val();
+            data["identifyingCode"] = $("#identifyingCodeId").val();
+            $.ajax({
+                url: "${path}/mall/payUser/wxLogin.do",
+                async: false,
+                data: data,
+                dataType: "json",
+                success: function (ret) {
+                    if (ret.retcode == 0) {
+                        alert(ret.msg);
+                        window.location.href = "${path}${callBackUrl}";
+                    } else {
+                        alert(ret.msg);
+                    }
+                }
+            });
+        }
+    
+        function getCode() {
+            var second = 10;
+            $('#J_getCode').hide();
+            $('#J_second').html(second);
+            $('#J_resetCode').show();
+    
+            var timer = null;
+            timer = setInterval(function () {
+                second -= 1;
+                if (second > 0) {
+                    $('#J_second').html(second);
+                    $("#J_getCode").attr("onclick","getCode(this);");
+                } else {
+                    clearInterval(timer);
+                    $('#J_getCode').show();
+                    $('#J_resetCode').hide();
+                    $("#J_getCode").attr("onclick","getIdentifyingCode();getCode(this);");
+                }
+            }, 1000);
+        }
+    </script> -->
