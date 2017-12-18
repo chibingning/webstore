@@ -1,1 +1,104 @@
+.login-bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/login_bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-bg h2 {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin: 4.24rem auto 2.7rem;
+}
+
+.login-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login-list li {
+    border-bottom: 1px solid #fff;
+    padding: 0.9rem 0;
+}
+
+.login-list li:last-child {
+    border-bottom: 0;
+}
+
+.login-list li label {
+    line-height: 1.36rem;
+    color: #fff;
+    font-size: 0.56rem;
+    float: left;
+    margin-right: 0.2rem;
+    padding-left: 0.48rem;
+}
+
+.login-list li input {
+    width: 5.52rem;
+    height: 1.36rem;
+    float: left;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.login-hqword {
+    width: 3.6rem;
+    height: 1.36rem;
+    font-size: 0.48rem;
+    color: #fff;
+    border: none;
+    background: #fff;
+    float: right;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 1.36rem;
+}
+
+.login-hqword1 {
+    width: 3.6rem;
+    height: 1.36rem;
+    font-size: 0.48rem;
+    color: #fff;
+    border: none;
+    background: #fff;
+    float: right;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 1.36rem;
+}
+
+.login-list li input[type="submit"] {
+    width: 100%;
+    height: 1.52rem;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 4px;
+    background: #f9aa00;
+    border: none;
+}
+
+.login-list li input.loginCss {
+    width: 100%;
+    height: 1.52rem;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 4px;
+    background: #f9aa00;
+    border: none;
+}
+
+.login-btn{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+ .login-btn label{ width: 100%; display: block; text-align: center;}
+ .login-code{ float: right; padding:0; background: rgba(255, 255, 255, 0.8); }
+ .login-list li .login-code label{ font-size:0.5rem; display: inline-block; padding-left:0.4rem; margin-right: 0.4rem; color: rgb(44, 8, 8);}
 

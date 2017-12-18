@@ -1,0 +1,170 @@
+
+@media screen and (min-width:320px){
+	html{font-size:77px}
+}
+@media screen and (min-width:375px){
+	html{font-size:91px}
+}
+@media screen and (min-width:414px){
+	html{font-size:100px}
+}
+
+html {
+	-ms-touch-action:none;  /* 阻止 windows Phone 的默认触摸事件 */
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, table, caption, table, th, td, form, fieldset, legend, input, select, textarea, button, hr, pre, blockquote, header, footer, menu, nav, section, article, aside, details, figure, figcaption, address {
+	margin:0;
+	padding:0;
+}
+body, input, select, textarea, button {
+	color:#000;
+	line-height:1.42857143;
+	font-size:14px;
+	font-family:'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+ul, ol {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset {
+	border:0;
+}
+a, input, select, textarea, button {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color:transparent;
+-webkit-appearance:none;
+}
+input[type=checkbox]{  
+-webkit-appearance: checkbox;}
+a, input, select, textarea, button, [hidefocus] {
+	outline:none;
+}
+a, button {
+	cursor:pointer;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover, a:active, a:visited {
+	text-decoration:none;
+	color:#000;
+}
+textarea {
+	resize:none;
+}
+img {
+	border:0;
+	vertical-align:middle;
+}
+hr {
+	height:0;
+	border:none;
+	border-bottom:1px solid #cfcfcf;
+	overflow:hidden;
+}
+
+[hidden] {
+	display:none;
+}
+header, footer, menu, nav, hgroup, main, section, article, aside, details, summary, figure, figcaption, address {
+	display:block;
+}
+audio, video, canvas {
+	display:inline-block;
+}
+audio:not([controls]) {
+	display:none;
+	height:0;
+}
+address, cite, dfn, i, em, var {
+	font-style:normal;
+}
+pre, code, kbd, samp {
+	font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+mark {
+	border-bottom:1px solid #ffedce;
+	background-color:#fffdd1;
+	margin:0 5px;
+	padding:2px;
+}
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+small {
+	font-size:12px;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body{ overflow-x:hidden; }
+body{ -webkit-overflow-scrolling:touch;	-moz-overflow-scrolling:touch;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{ display:block;}
+audio, canvas, progress, video{ display:inline-block; vertical-align:baseline;}
+audio:not([controls]){ display:none; height:0;}
+[hidden], template{ display:none;}
+svg:not(:root){ overflow:hidden;}
+a{ background:transparent; text-decoration:none; -webkit-tap-highlight-color:transparent; -moz-tap-highlight-color:transparent; color:#0088cc;}
+a:active{ outline:0; color:#006699;}
+img{ border:0; vertical-align:middle;}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{ -webkit-appearance:button; -moz-appearance:button; cursor:pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner{ border:0; padding:0;}
+input[type="checkbox"], input[type="radio"]{ box-sizing:border-box; padding:0;}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{ height:auto;}
+input[type="search"]{ -webkit-appearance:textfield; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none;}
+input::-moz-placeholder, textarea::-moz-placeholder { color:#ccc;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color:#ccc;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color:#ccc;}
+*{ -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+* html .clearfix { height:1%; }
+.clearfix{ display:block; }
+.ellipsis { overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis;}
+
+
+
+.ani {
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes imgFadeUp {
+  0% {
+    transform:translateY(100px);
+    opacity: 0;
+
+  }
+
+
+  100% {
+    transform:translateY(0);
+    opacity: 1;
+  }
+}
+
+.imgFadeUp {
+  animation-name: imgFadeUp;
+}
+
+/*手机web的css初始化*/
