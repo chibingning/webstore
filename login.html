@@ -21,6 +21,7 @@
         })()
     </script>
 </head>
+
 <body class="login-bg">
     <h2>雪托帮商城</h2>
     <ul class="login-list" id="app">
@@ -37,8 +38,11 @@
                 <span id="J_second">10</span>秒后重发
             </a> -->
         </li>
-        <li class="clearfix">
-            <mt-button type="primary" v-bind:class="wStyle" @click.native="wxLogin()">登录</mt-button>
+        <li class="clearfix" style="border-bottom:0;">
+            <mt-button type="primary" v-bind:class="wStyle" @click.native="wxLogin()" >登录</mt-button>
+        </li>
+        <li style="border-top:none; text-align: center;">
+            <a href="index.html">进入首页</a>
         </li>
     </ul>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -48,19 +52,20 @@
             el: "#app",
             data: {
                 wStyle: 'login-btn',
-                btnSmall:'login-code',
-
+                btnSmall: 'login-code',
             },
             methods: {
                 wxLogin: function () {
-                    this.$toast('登录成功');
+                    setTimeout(function(){
+                       this.$toast('登录成功');
+                    }.bind(this), 1000);
                 },
-                getCode:function(){
+                getCode: function () {
                     //获取验证码
                 }
             },
-            computed:{
-                
+            computed: {
+
             }
         });
     </script>
