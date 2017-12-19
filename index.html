@@ -1,2 +1,248 @@
+<!DOCTYPE html>
+<html>
 
-##项目修改中   稍安勿躁  
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type">
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>雪托帮商城</title>
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/swiper.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script>
+        (function () {
+            var html = document.documentElement;
+            var hWidth = html.getBoundingClientRect().width;
+            html.style.fontSize = hWidth / 15 + "px";
+        })()
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="tab-list clearfix">
+            <a href="${path}/mall/ApiMallBanner/goIndex.do" class="current">
+                <i class="iconfont icon-shouye"></i>
+                <div>首页</div>
+            </a>
+            <a href="${path}/mall/classify/goFindMallClassifyAndBrand.do">
+                <i class="iconfont icon-fenlei"></i>
+                <div>分类</div>
+            </a>
+            <a href="${path}/mall/shoppingCart/goShoppingCartList.do">
+                <i class="iconfont icon-gouwuche"></i>
+                <div>购物车</div>
+            </a>
+            <a href="${path}/mall/myMall/goMallIndex.do">
+                <i class="iconfont icon-wode-hui"></i>
+                <div>我的商城</div>
+            </a>
+        </div>
+        <div class="index-box" id="page">
+            <div class="search-box">
+                <form action="#">
+                    <a href="${path}/mall/ApiMallBanner/goSearch.do">
+                        <input type="search" class="search-input" placeholder="搜索商品" />
+                    </a>
+                </form>
+            </div>
+            <div class="g-bd">
+                <div class="banner swiper-height">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img width="100%" src="images/index/banner.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img width="100%" src="images/index/banner1.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img width="100%" src="images/index/banner2.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+
+        </div>
+        <nav>
+            <ul class="nav-list clearfix">
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/nav_icon01.png">
+                    </a>
+                    <span>{{title.title}}</span>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/nav_icon02.png">
+                    </a>
+                    <span>{{title.title1}}</span>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/nav_icon03.png">
+                    </a>
+                    <span>{{title.title2}}</span>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/nav_icon04.png">
+                    </a>
+                    <span>{{title.title3}}</span>
+                </li>
+            </ul>
+        </nav>
+        <ol class="nav-add clearfix">
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="images/index/nav_add01.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="images/index/nav_add02.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="images/index/nav_add03.jpg">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">
+                    <img src="images/index/nav_add04.jpg">
+                </a>
+            </li>
+
+        </ol>
+        <h2 class="rmpb">热门品牌</h2>
+        <div class="space01"></div>
+        <div class="brand-box">
+            <ul class="brand-list clearfix">
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand01.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand02.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand03.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand04.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand05.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand06.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand07.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <img src="images/index/brand08.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <h2 class="rmpb" style="margin-top: 0.6rem; ">热门商品</h2>
+        <div class="space01"></div>
+        <div class="hot-goods" style="margin-bottom: 80px;">
+
+            <ol class="goods-list clearfix">
+                <li v-for="item in list">
+                    <a href="javascript:void(0)">
+                        <img :src="item.img">
+                        <div class="brand-name">{{item.name}}</div>
+                        <div class="brand-title ellipsis">{{item.title}}</div>
+                        <div class="brand-price">￥{{item.price}}</div>
+                        <del class="befor-price">￥{{item.beforPrice}}</del>
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="js/backtop.js"></script>
+    <script type="text/javascript" src="js/vue.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+        var list = [
+            {  
+                img:"images/index/goods01.jpg",
+                name: "意凡特",
+                title:"健身运动背心女士跑步活动",
+                price:"135",
+                beforPrice:"130",
+                
+            },
+            {   
+                img:"images/index/goods01.jpg",
+                name: "意凡特",
+                title:"健身运动背心女士跑步活动",
+                price:"135",
+                beforPrice:"130", 
+            },
+            {  
+                img:"images/index/goods01.jpg",
+                name: "意凡特",
+                title:"健身运动背心女士跑步活动",
+                price:"135",
+                beforPrice:"130",
+                
+            },
+            {   
+                img:"images/index/goods01.jpg",
+                name: "意凡特",
+                title:"健身运动背心女士跑步活动",
+                price:"135",
+                beforPrice:"130", 
+            }
+        ];
+
+        var vm = new Vue({
+            el: "#app",
+            data: {
+                title: {
+                    title: '滑雪装备',
+                    title1: '热门推荐',
+                    title2: '新品集结',
+                    title3: '领券中心',
+                },
+                list:list,
+            },
+
+        });
+
+    </script>
+</body>
+
+</html>
