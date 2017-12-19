@@ -328,10 +328,11 @@
 .sport-class {
     width: 23%;
     height: 100%;
-    border-right: 1px solid #f5f5f5;
     float: left;
     position: absolute;
-    left: 0;
+    left: 1px;
+    border-right: 1px solid #f5f5f5;
+
 }
 
 .sport-class p {
@@ -356,10 +357,12 @@
 
 #goodPanel .p-class {
     width: 77%;
+    height: auto;
     float: left;
     margin-left: 23%;
     display: none;
     margin-bottom: 80px;
+    border-left: 1px solid #f5f5f5;
 }
 
 #goodPanel .p-class h3 {
@@ -400,7 +403,7 @@
 .brand-letter {
     width: 23%;
     position: absolute;
-    left: 0;
+    left: 1px;
     margin-bottom: 0.8rem;
 }
 
@@ -420,11 +423,13 @@
 .letter-con {
     float: left;
     width: 77%;
-    height: 100%;
+    height: auto;
     margin-left: 23%;
     padding-top:0.48rem;
     display: none;
     padding-left: 0.24rem;
+    border-left: 1px solid #f5f5f5;
+
 }
 
 .letter-con a {

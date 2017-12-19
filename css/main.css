@@ -1,0 +1,107 @@
+@media screen and (min-width: 320px) {
+    .swiper-height {
+        height: 141px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .swiper-height {
+        height: 158px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .swiper-height {
+        height: 165px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .swiper-height {
+        height: 183px;
+    }
+}
+
+.index-box {
+    margin-bottom: 0;
+}
+
+.rmpb {
+    margin-bottom: 0.6rem;
+    margin-top: 0.3rem;
+    color: #777;
+    font-size: 0.56rem;
+    font-weight: normal;
+    padding-left: 0.6rem;
+}
+
+.space01 {
+    height: 0.3rem;
+    background: #f7f7f7;
+    margin-bottom: 0.4rem;
+}
+
+.brand-list {
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+}
+
+.goods-list li a {
+    background: #fff;
+}
+
+.hot-goods {
+    background: #f2f2f2;
+}
+
+.goods-list li {
+    padding: 0;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 4px;
+}
+
+.goods-list {
+    padding: 0;
+}
+
+.goods-list li:nth-child(2n) {
+    padding-right: 0;
+}
+
+.goods-list li:nth-child(2n+1) {
+    padding-left: 0;
+}
+
+.goods-list li a {
+    margin-bottom: 0;
+    padding-bottom: 0.3rem;
+    background:#fff;
+}
+
+.brand-name,
+.brand-title,
+.brand-price {
+    padding-left: 0.6rem;
+}
+
+.list-box-img {
+    padding: 0 0.6rem;
+}
+
+.nav-add {
+    padding: 0 0.15rem;
+    margin: 0;
+}
+
+.nav-add li {
+    padding: 0 0.15rem;
+}
+
+.nav-add li a {
+    margin-bottom: 0.3rem;
+}
+.tab-list a{ 
+    padding-top: 0.1rem;
+}
+.space01{ height: 0.2rem;}

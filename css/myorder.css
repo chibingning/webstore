@@ -63,7 +63,7 @@ header .title {
 
 .myorder-box dl dd span {
     display: inline-block;
-    font-size: 0.48rem;
+    font-size: 0.55rem;
     color: #777;
     padding:0.6rem 0;
 }
@@ -107,9 +107,14 @@ header .title {
 }
 
 .order-img {
-    width: 22%;
+    width: 65px;
+    height:65px;
+    max-height: 65px;
     overflow: hidden;
     float: left;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
 }
 
 .order-img img {
@@ -117,17 +122,17 @@ header .title {
 }
 
 .order-details {
-    width: 78%;
-    float: left;
+    float: right;
     padding: 0.08rem 0;
-    padding-right: 0.2rem;
-    padding-left: 0.3rem;
-    letter-spacing: 1px;
+    width:0;
+    -webkit-box-flex: 1;
+    flex-grow:1;
+    padding-left: 0.5rem;
 }
 
 .order-details h2 {
     color: #333;
-    font-size: 0.48rem;
+    font-size: 0.6rem;
     font-weight: normal;
     margin-bottom: 0.4rem;
 }
@@ -139,7 +144,7 @@ header .title {
 
 .order-details h3 {
     color: #333;
-    font-size: 0.48rem;
+    font-size: 0.55rem;
     font-weight: normal;
     margin-bottom: 0.4rem;
 }
@@ -151,23 +156,25 @@ header .title {
 }
 
 .order-details p span {
-    font-size:0.4rem;
+    font-size:0.55rem;
 }
 
 .order-details p strong {
     font-weight: normal;
-    font-size: 0.4rem;
-    margin-left: 0.1rem;
+    font-size: 0.55rem;
+    margin-left: 0.3rem;
 }
 
 .order-details p i {
-    font-size: 0.48rem;
+    font-size: 0.55rem;
     font-weight: bold;
     color: #333;
     float: right;
 }
 
 .col-order-list li {
+    display:-webkit-box;
+    display: flex;
     border-bottom: 1px solid #f5f5f5;
     padding: 1rem 0.6rem;
 }
@@ -366,7 +373,7 @@ header .title {
 }
 
 .order-pay-btn01 .pay {
-    width: 22%;
+    width: 30%;
     height: 100%;
     line-height: 1.96rem;
     text-align: center;
@@ -378,7 +385,7 @@ header .title {
 }
 
 .order-pay-btn01 .price {
-    width: 78%;
+    width: 70%;
     float: left;
     text-align: right;
     line-height: 1.96rem;

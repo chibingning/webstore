@@ -85,8 +85,9 @@ a.rig_shai {
  .commodity_list_term li { position: relative;}
   .commodity_list_term li  .now_value{ position: absolute; right:4%; top:15px; }
   .now_value b{ font-weight: normal;}
-  .tab-list{ width: 100%; position: relative; box-shadow: none; border-top: 1px solid #f1f1f1; font-size: 6rem; padding:10px 0;}
-   .tab-list a div{ font-size: 0.7rem; margin-top: 5px;}
+  .tab-list{ width: 100%; position: relative; box-shadow: none; border-top: 1px solid #f1f1f1; font-size: 6rem; }
+.tab-list a{ padding-top: 0.2rem;}
+   .tab-list a div{ font-size: 0.55rem; }
      .tab-list a i{ font-size: 0.9rem; }
       .bar-header a{ padding-top: 7px;}
     .bar-header a i{ color: #fff; font-size: 20px; }
